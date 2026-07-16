@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang = 'em' dir = 'ltr'>
+    <head>
+        <meta charset="utf-8">
+        <title>My webpage</title>
+        <script src="https://kit.fontawesome.com/8826036254.js" crossorigin="anonymous"></script>
+        <style media = "screen">
+            a:link{
+                text-decoration : none;
+                background-color : yellow;
+            }
+            a:visited{
+                background-color : lightblue;
+            }
+            a:hover{
+                text-decoration : underline;
+                color : red;
+            }
+            a:active{
+                background-color : red;
+                color : black;
+                font-size : 18px;
+            }
+
+            ul{
+                /*list-style-type : square;*/
+                font-size : 20px;
+                /*list-style-image : url('img2.jpg');*/
+                list-style-type : none;
+                /*list-style-position : inside;  (inside, outside, inherit)*/
+                background-color : green;
+                color : black;
+            }
+
+            li{
+                margin-top : 3px;
+                border : 2px solid;
+            }
+
+            ol{
+                list-style : square inside url('img1.jpg');
+            }
+
+            td,th,table{
+                border : 2px solid;
+            }
+
+            table{
+                width : 50%;
+                text-align : center;
+                border-collapse : collapse;
+            }
+
+            h2{
+                display : inline;
+            }
+
+            span{
+                display : block;
+            }
+            
+        </style>
+    </head>
+
+    <body>
+        <i class="fa-solid fa-house">HOME</i><br><br>
+        <a href="https://www.google.com" target = "blank">GOOGLE</a><br>
+
+        <ul>
+            <li>LG</li>
+            <li>nokia</li>
+            <li>apple</li>
+            <li>samsung</li>
+        </ul>
+
+        <ol>
+            <li>LG</li>
+            <li>nokia</li>
+            <li>apple</li>
+            <li>samsung</li>
+        </ol>
+
+        <table>
+            <tr>
+                <th>F-name</th>
+                <th>L-name</th>
+                <th>Age</th>
+            </tr>
+            <tr>
+                <td>Shweta</td>
+                <td>Porje</td>
+                <td>22</td>
+            </tr>
+            <tr>
+                <td>Shweta</td>
+                <td>Porje</td>
+                <td>22</td>
+            </tr>
+        </table>
+
+        <h2>Hii there</h2>
+        <h2>this is me shweta</h2>
+
+        <span>Hello there</span>
+        <span>this is me shweta</span>
+
+    </body>
+
+</html>
