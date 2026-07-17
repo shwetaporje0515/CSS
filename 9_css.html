@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang = 'em' dir = 'ltr'>
+    <head>
+        <meta charset="utf-8">
+        <title>My webpage</title>
+        <style media = "screen">
+            *{
+                margin : 0;
+                padding : 0;
+                box-sizing : border-box;
+            }
+
+            nav{
+                width : 100%;
+                display : flex;
+            }
+
+            .logo{
+                width : 60%;
+                line-height : 50px;
+                background-color : green;
+                padding-left : 15px;
+            }
+
+            .navbar{
+                width :40%;
+                line-height : 50px;
+                background-color : yellow;
+            }
+
+            .navbar ul{
+                list-style-type : none;
+                display : flex;
+                justify-content : space-around;
+                font-size: 18px;
+
+            }
+
+            .navbar ul li:hover{
+                text-shadow : 1px 1px black;
+            }
+        </style>
+    </head>
+
+    <body>
+        <nav>
+            <div class = "logo">
+                <h1>Website logo</h1>
+            </div>
+            <div class = "navbar">
+                <ul>
+                    <li>Home</li>
+                    <li>News</li>
+                    <li>Contact us</li>
+                    <li>About us</li>
+                </ul>
+            </div>
+        </nav>
+    </body>
